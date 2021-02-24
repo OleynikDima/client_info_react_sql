@@ -11,16 +11,17 @@ const Header = () => {
         </div>
       </nav>
       <div className="header-container container">
-        <div className="container header-container__text">
-          <h1>
+        <div className="header-container__box">
+          <h1 className="header-container__title">
             {' '}
-            <span>Brainstorming</span> for desired perfect Usability
+            <b className="tile-span">Brainstorming</b> for
+            <br /> desired perfect Usability
           </h1>
-          <p>
-            Our design projects are fresh and simple and will benefit your
-            business greatly. Learn more about our work!
+          <p className="header-container__text">
+            Our design projects are fresh and simple and will benefit <br />
+            your business greatly. Learn more about our work!
           </p>
-          <NavLink className="link-view" to="/users">
+          <NavLink className="header-container__link-view" to="/users">
             {' '}
             Views Stats{' '}
           </NavLink>

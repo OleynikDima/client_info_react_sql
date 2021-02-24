@@ -7,14 +7,38 @@
   &-navigation {
     height: 75px;
     display: flex;
+    align-items: center;
   }
   &-container {
     display: flex;
     justify-content: space-between;
-    &__text {
+    &__box {
       margin: 0;
       width: 586px;
     }
+    &__title {
+      font-family: Monsterrat;
+      font-weight: 400;
+      color: #fff;
+      font-size: 48px;
+      margin-bottom: 24px;
+    }
+    &__text {
+      font-family: Monsterrat;
+      color: #fff;
+      margin-bottom: 32px;
+    }
+    &__link-view {
+      font-family: Monsterr, sans-serif;
+      text-decoration: none;
+      color: #3a80ba;
+      padding: 17px 31px;
+      background-color: #fff;
+      border-radius: 8px;
+    };
+    &__img-mobile{
+        margin-right: 100px;
+    };
   }
 }
 
