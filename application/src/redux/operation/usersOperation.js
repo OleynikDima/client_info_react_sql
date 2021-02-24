@@ -1,5 +1,5 @@
-import axios from "axios";
-import usersAction from "../action/usersAction";
+import axios from 'axios';
+import usersAction from '../action/usersAction';
 
 const SERVER_URI = `http://localhost:1717/api/users`;
 
