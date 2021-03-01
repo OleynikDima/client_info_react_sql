@@ -1,0 +1,38 @@
+.users-container__item {
+    width: 1180px;
+    border: 1px solid black;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    height: 32px;
+    &-id{
+        width: 64px;
+    };
+    &-first_name{
+        width: 153px;
+    };
+    &-last_name{
+        width: 128px;
+    };
+    &-email{
+width: 240px;
+    };
+    &-genred{
+        width: 112px;
+    };
+    &-ip_addres{
+        width:148px;
+    };
+    &-total_click{
+        width:  164px;
+    };
+    &-total-view{
+        width: 180px;
+    };
+}
+
+.text-center {
+    text-align: center;
+}

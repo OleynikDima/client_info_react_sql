@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import data from './li-sours';
-import ItemLi from './item-li';
+import ItemLi from '../../components/ItemLi';
 import './home.scss';
 
 const HomePage = () => {
@@ -30,6 +31,7 @@ const HomePage = () => {
           })}
         </ul>
       </section>
+      <Footer />
     </>
   );
 };

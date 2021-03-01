@@ -1,0 +1,32 @@
+.form {
+    position: relative;
+    &-box{
+        &__input{
+        padding:18px;
+        background: #FFFFFF;
+        border: 1px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 580px;
+        height: 64px;
+        };
+        &__button{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 176px;
+        height: 56px;
+        background: #3A80BA;
+        border-radius: 8px;
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: linear 250ms;
+        &:hover {
+            background-color: #3a80bad3
+        }
+        };
+    }
+}

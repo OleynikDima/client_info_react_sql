@@ -35,6 +35,11 @@
       padding: 17px 31px;
       background-color: #fff;
       border-radius: 8px;
+      transition: linear 250ms;
+      &:hover{
+        color: #fff;
+        background-color:#3a80ba;
+      }
     };
     &__img-mobile{
         margin-right: 100px;

@@ -1,0 +1,30 @@
+.footer {
+ position: relative;
+    background-image: url('../../assets//images/footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-box {
+    height: 183px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    &__text{
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 16px;
+    };
+    &__logo{
+        font-family: Montserrat;
+        font-size: 32px;    
+        color: #FFFFFF;
+    };
+
+};
+
+.form-mail {
+    position: absolute;
+    top: 30%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}

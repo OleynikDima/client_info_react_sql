@@ -1,7 +1,18 @@
 import { createAction } from '@reduxjs/toolkit';
 
-const axiosUserRequest = createAction('users/axiosUsersRequest');
-const axiosUserSuccess = createAction('users/axiosUsersSuccess');
-const axiosUserError = createAction('users/axiosUsersError');
+const axiosUserRequest = createAction('user/axiosUsersRequest');
+const axiosUserSuccess = createAction('user/axiosUsersSuccess');
+const axiosUserError = createAction('user/axiosUsersError');
 
-export default { axiosUserRequest, axiosUserSuccess, axiosUserError };
+const axiosAllUsersRequest = createAction('users/axiosAllUsersRequest');
+const axiosAllUsersSuccess = createAction('users/axiosAllUsersSuccess');
+const axiosAllUsersError = createAction('users/axiosAllUsersError');
+
+export default {
+  axiosUserRequest,
+  axiosUserSuccess,
+  axiosUserError,
+  axiosAllUsersRequest,
+  axiosAllUsersSuccess,
+  axiosAllUsersError,
+};
